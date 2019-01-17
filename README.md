@@ -2,7 +2,7 @@
 
 This is a playable version of minesweeper. I still haven't gottten the "0 automatically expanding effect" (if you click on an empty square, then all empty squares including the "border 1s" will automatically be uncovered).
 
-![Minesweeper](minesweeper.png?raw=true)
+![Minesweeper](minesweeper.png|width=100)
 
 All the logic is encapsulated solely in the App.js file. The main logic is the following: 
 
@@ -11,7 +11,7 @@ All the logic is encapsulated solely in the App.js file. The main logic is the f
   
 2) For all "0" tiles (non-bomb) tiles, the number is determined by counting the number of adjacent tiles with bombs on them. Depending on the location of the tile (e.g. corner, side or interior), we need to count a different number of neighboring tiles. For example, if our "0" tile was in the upper left corner, we only need to check whether the tile on its right, the tile directly below it, and the tile below-right contains a bomb (as shown below, 'C' stands for 'to check'). 
 
-  [ ] [C]
+  [ ] [C] <br/>
   [C] [C] 
   
   a) So several helper functions were created to check and compute the final number on the tile by summing up all the neighboring bombs (there is quite a bit of redundancy in the code...hope to trim this stuff down in the future). 

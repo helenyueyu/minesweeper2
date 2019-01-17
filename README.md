@@ -2,7 +2,7 @@
 
 This is a playable version of minesweeper. I still haven't gottten the "0 automatically expanding effect" (if you click on an empty square, then all empty squares including the "border 1s" will automatically be uncovered).
 
-<a href="url"><img src="http://url.to/image.png" align="left" height="48" width="48" ></a>
+<a href="url"><img src="minesweeper.png" align="left" height="48" width="48" ></a>
 
 
 ![Minesweeper](minesweeper.png?|width=48)

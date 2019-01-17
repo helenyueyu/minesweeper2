@@ -2,7 +2,7 @@
 
 This is a playable version of minesweeper. I still haven't gottten the "0 automatically expanding effect" (if you click on an empty square, then all empty squares including the "border 1s" will automatically be uncovered).
 
-![Minesweeper](minesweeper.png?|width=100)
+![Minesweeper](minesweeper.png?|width=48)
 
 All the logic is encapsulated solely in the App.js file. The main logic is the following: 
 
